@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color:rgba(190, 190, 190, 0.797) ;
+    display: flex;
+    padding: 5px 5px;
+    justify-content: center;
+    background: url(joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+
+}
+
+.img {
+    color: black;
+    padding: 10px 50px;
+    margin: 10px 10px;
+    
+}
+
+.navbar {
+    width: 50%;
+}
+
+.navbar ul li {
+    list-style: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+}
+
+.navbar ul li:hover {
+    color: red;
+    transition: 0.5s;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.hamburger {
+    display: none;
+    float: right;
+    padding: 8px 2px;
+}
+
+.bar {
+    background-color: black;
+    width: 20px;
+    height: 3px;
+    margin: 3px 3px;
+}
+
+@media only screen and (max-width:890px) {
+    .hamburger {
+        display: block;
+        width: 50%;
+        padding: 15px;
+    }
+    
+    .navbar ul {
+       
+        display: none;
+        height: 3vh;
+    }
+   .navul.active{
+        display: block;
+        height: 23vh;
+    }
+}
+.img{
+    border-radius: 10px;
+    width: 80%;
+}
+.s2{
+    background: url(joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+}
+.c3{
+    color: black;
+    font-size: x-large;
+}
+.c4 .cc{
+    font-size: 40px;
+}
+.work{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+.btn{
+    align-items: center;
+    justify-content: center;
+    background-color: #fd7070;
+    padding: 10px 10px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    margin-left: 48%;
+}
+.btn:hover{
+    background-color: gray;
+    transition: 0.5s;
+}
+.im2:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+footer{
+    display: flex;
+    padding: 20px 20px;
+    justify-content: center;
+}
+.social{
+    padding: 10px 10px;
+}
+.catergories{
+    padding: 10px 10px;
+}
+.company{
+    padding: 10px 100px;
+}
+.lasthead{
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
